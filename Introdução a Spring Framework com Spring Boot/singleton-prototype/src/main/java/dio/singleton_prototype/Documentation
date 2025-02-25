@@ -1,0 +1,10 @@
+
+--------------- Scope: Singleton e Prototype ---------------
+
+Singleton: Define apenas uma instância ou objeto para toda a aplicação.
+
+Prototype: Será criado um novo objeto para cada solicitação ao container.
+
+Beans: Objeto que é instanciado (criado), montado e gerenciado por um container através do princípio de inversão de controle
+
+Inversão de controle: Redirecionamento do fluxo de execução de um código retirando parcialmento o controle sobre ele e delegando-o para o container;

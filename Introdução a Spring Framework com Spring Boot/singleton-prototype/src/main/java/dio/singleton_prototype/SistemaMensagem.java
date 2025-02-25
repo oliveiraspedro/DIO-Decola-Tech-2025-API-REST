@@ -6,7 +6,7 @@ import org.springframework.stereotype.Component;
 @Component //Diz que essa classe deve ser instânciada e gerenciada automaticamente pelo Spring Container
 public class SistemaMensagem {
 
-    @Autowired
+    @Autowired // Annotation onde deverá ocorrer uma injeção automatica de dependência
     private Remetente noreply;
 
     @Autowired
