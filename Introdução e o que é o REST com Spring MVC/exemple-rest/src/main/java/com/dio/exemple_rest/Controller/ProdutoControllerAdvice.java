@@ -2,9 +2,7 @@ package com.dio.exemple_rest.Controller;
 
 import com.dio.exemple_rest.Exception.ProductNullException;
 import com.dio.exemple_rest.Exception.ProductPriceException;
-import org.apache.logging.log4j.spi.ObjectThreadContextMap;
 import org.springframework.http.HttpStatus;
-import org.springframework.http.HttpStatusCode;
 import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.ControllerAdvice;
 import org.springframework.web.bind.annotation.ExceptionHandler;
