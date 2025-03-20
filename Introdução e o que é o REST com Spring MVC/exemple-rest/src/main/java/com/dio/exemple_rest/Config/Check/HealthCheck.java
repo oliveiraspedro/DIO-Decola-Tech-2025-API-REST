@@ -1,4 +1,4 @@
-package Config.Check;
+package com.dio.exemple_rest.Config.Check;
 
 import org.springframework.boot.actuate.health.Health;
 import org.springframework.boot.actuate.health.HealthIndicator;
@@ -14,14 +14,10 @@ public class HealthCheck implements HealthIndicator {
     @Override
     public Health health() {
         try{
-            InetAddress address= InetAddress.getByName("localhostsdsa");
+            InetAddress address= InetAddress.getByName("localhost");
             if (address.isReachable(10000)){
                 return Health.up().build();
             }
-        } catch (UnknownHostException e) {
-            throw new RuntimeException(e);
-        } catch (IOException e) {
-            throw new RuntimeException(e);
         } catch (Exception e){
             return Health.down().withDetail("Motivo", e.getMessage()).build();
         }
