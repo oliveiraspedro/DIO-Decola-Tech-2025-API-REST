@@ -4,3 +4,5 @@ REST(Representational State Transfers)
 
 1 REST: Representa um apanhado de princípios de arquitetura
 2 RESTful: representa a condição de um sistema específico em aplicar os conceitos de REST
+
+Endpoint

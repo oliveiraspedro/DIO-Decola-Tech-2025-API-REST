@@ -1,5 +1,6 @@
 package com.dio.exemple_rest.Entity;
 
+
 import jakarta.persistence.Entity;
 import jakarta.persistence.GeneratedValue;
 import jakarta.persistence.GenerationType;
